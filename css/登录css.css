@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.top-nav{
+    width: 1200px;
+    height: 55px;
+    /*border:1px solid red;*/
+    margin: 20px auto;
+}
+.top-nav img{
+    width: 145px;
+    height: 55px;
+    float:left;
+
+}
+.top-right{
+    float:right;
+    font-size: 13px;
+}
+.zhuce{
+    float:left;
+}
+.zhuce p{
+    float:left;
+    margin-top: 6px;
+    color: #9b9b9b;
+}
+.zhuce p span{
+    color: #5873e7;
+}
+.outhelpe{
+    float:left;
+    width: 110px;
+    height: 30px;
+    /*border: 1px solid red;*/
+    margin-left: 20px;
+    /*margin-top: 12px;*/
+    position: relative;
+}
+.outhelpe p{
+    line-height: 30px;
+    /*text-align: center;*/
+    margin-left: 1px;
+}
+.outhelpe p img{
+    line-height: 30px;
+    width: 16px;
+    height: 16px;
+    margin-top: 8px;
+    margin-left: 6px;
+    margin-right: 5px;
+}
+.outhelpe p .two{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right:5px;
+    top:0px;
+}
+
+.denglu{
+    width: 99.9%;
+    height: 500px;
+    border:1px solid #ccc;
+    background-color: #FCFCFC;
+}
+.content{
+    width: 1000px;
+    height: 500px;
+    /*background-color: #f8fce4;*/
+    margin: 0 auto;
+    position: relative;
+}
+.tu-left{
+    margin-top: 20px;
+}
+.pull-left{
+    float:left;
+}
+.pull-right{
+    float:right;
+}
+.denglu-right{
+    margin-top: 45px;
+    width: 360px;
+    /*border:1px solid #ccc;*/
+    margin-right: 5px;
+}
+.zuce{
+
+}
+.denglu-right p{
+    font-size: 14px;
+    color: #676767;
+    font-weight: 600;
+}
+.denglu-right p a{
+    font-size: 14px;
+    color: #6280ff;
+    font-weight: 100;
+   text-decoration: none;
+}
+.uerNmae{
+    margin-top: 30px;
+    width: 359px;
+    height: 50px;
+    border:1px solid #ccc;
+    position: relative;
+    background-color: #fff;
+}
+.uerNmae input{
+    position: absolute;
+    width: 285px;
+    height: 30px;
+    margin-left: 72px;
+    border:none;
+    margin-top: 12px;
+}
+.uerNmae .imgone{
+    position: absolute;
+    top:6px;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.mima{
+    margin-top: 19px;
+    width: 359px;
+    height: 50px;
+    border:1px solid #ccc;
+    position: relative;
+    background-color: #fff;
+}
+.mima input{
+    position: absolute;
+    width: 285px;
+    height: 30px;
+    margin-left: 72px;
+    margin-top: 0px;
+    border:none;
+    margin-top: 12px;
+}
+.mima .imgtwo{
+    position: absolute;
+    top:6px;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.zidenglu {
+    margin-top: 20px;
+    position: relative;
+}
+.zidenglu a{
+    float:left;
+    text-decoration:none;
+    font-size: 13px;
+    color: #7e7e7e;
+    cursor: pointer;
+}
+.dl{
+    position: absolute;
+    left:25px;
+}
+.zidenglu p{
+    float:right;
+    cursor: pointer;
+    font-size: 12px;
+    color: #a4a4a4;
+    font-weight: 100;
+}
+.zidenglu .annjiu{
+   position: absolute;
+    top:3px;
+    left:1px;
+}
+.btn{
+    width: 360px;
+    height: 50px;
+    margin-top: 60px;
+}
+.btn button{
+    width: 360px;
+    height: 50px;
+    background-color: #FF3C3C;
+    border:1px solid #FF3C3C;
+    font-size: 20px;
+    color:#fff;
+    cursor: pointer;
+}
+
+.hezuo p{
+    margin: 10px 0;
+    font-size: 12px;
+    color: #7c7c7c;
+    font-weight: 100;
+}
+.shejie ul{
+    width: 240px;
+    height: 35px;
+    /*border:1px solid red;*/
+    float:left;
+}
+.shejie ul li{
+    float:left;
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
+    position: relative;
+}
+
+.shejie .hideimg{
+    position: absolute;
+    top:0;
+    left:0;
+   display: none;
+}
+.shejie ul li:hover .hideimg{
+    display: block;
+}
+.shejie ul li img{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+}
+.jiaoben{
+    position: absolute;
+    bottom:30px;
+    left:330px;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    color: #525252;
+}
+.jiaoben ul li {
+    float:left;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.jiaoben p{
+    float:left;
+    font-size: 12px;
+}

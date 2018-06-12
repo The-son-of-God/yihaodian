@@ -1,0 +1,673 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+.container {
+    width: 1200px;
+    margin: 50px auto 2000px auto;
+    position: relative;
+}
+.i-car{
+    position: relative;
+}
+.menu {
+    width: 100%;
+}
+.menu-top {
+    /*width: 100%;*/
+    height: 40px;
+    border-bottom: 2px solid red;
+}
+.menu-top h3 {
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ff3c3c;
+    color: white;
+    text-align: center;
+    float: left;
+    font-weight: 100;
+}
+.menu-top ul {
+    height: 40px;
+    float: left;
+    font-weight: 900;
+}
+.menu-top ul li {
+    height: 40px;
+    float: left;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.menu-top ul li:nth-of-type(-n+2){
+    color: red;
+}
+.menu-top ul li:hover{
+    color:red;
+}
+.menu-top>ul li:first-of-type>a{
+    color: red;
+}
+.menu-top .phone {
+    float: right;
+    margin-top: 5px;
+}
+.clearfix {
+    clear: both;
+}
+.box {
+    font-size: 14px;
+    color: gray;
+    margin: 20px 0;
+}
+.box .a {
+    border: 1px dashed red;
+    padding: 5px 10px;
+}
+.box .a i {
+    color: red;
+}
+.choice {
+    width: 1196px;
+    height: 240px;
+    border: 2px solid gray;
+    margin-top: 30px;
+}
+.choice1 {
+    width: 100%;
+    height: 80px;
+    font-size: 14px;
+    border-bottom: 1px solid gray;
+}
+.left {
+    width: 100px;
+    padding-top: 20px;
+    text-align: center;
+    float: left;
+}
+.right {
+    padding-top: 20px;
+    width: 1050px;
+    float: left;
+}
+.choice a {
+    text-decoration: none;
+    margin: 10px 10px;
+    color: #a5a5a5;
+}
+.choice2,.choice3,.choice4 {
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    border-bottom: 1px solid gray;
+}
+.choice1 a:nth-of-type(1){
+    color: #ff4e00;
+}
+.choice2 a:nth-of-type(2){
+    color: #ff4e00;
+}
+.choice4 {
+    border-bottom: none;
+}
+.history {
+    width: 210px;
+    margin-top: 20px;
+    float: left;
+}
+.history-top {
+    width: 210px;
+    height: 30px;
+    border: 1px solid #a8a8a8;
+    background: url("../images/h_t.gif") no-repeat 10px center;
+}
+.history-top span {
+    float: left;
+    text-indent: 20px;
+    line-height: 30px;
+    color: #ff4e00;
+}
+.history-top a {
+    text-decoration: none;
+    float: right;
+    line-height: 30px;
+    margin-right: 10px;
+    color: #a5a5a5;
+    font-size: 14px;
+}
+.history ul li {
+    width: 210px;
+    border: 1px solid #aeaeae;
+    margin-top: -1px;
+}
+.history ul li img {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.history ul li a {
+    margin: 5px 20px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.history ul li a:hover {
+    color: #ff4e00;
+}
+.history ul li span {
+    margin: 10px 60px;
+    color: #B00504;
+    display: block;
+}
+.main {
+    width: 990px;
+    float: left;
+    margin-top: 23px;
+    position: relative;
+}
+.list_t {
+    width: 100%;
+    height: 28px;
+    font-size: 14px;
+    border-bottom: 1px solid #b0b0b0;
+}
+.list_t ul {
+    margin-left: 10px;
+}
+.list_t li {
+    float: left;
+    width: 68px;
+    height: 23px;
+    border: 1px solid #afafaf;
+    text-indent: 10px;
+    line-height: 23px;
+    position: relative;
+    margin-left: -1px;
+    cursor: pointer;
+}
+.list_t ul li:hover {
+    background-color: #ff4e00;
+}
+.list_t .i-up {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.list_t .i-down {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+#sortPrice {
+    position: relative;
+}
+#sortPrice #i-up {
+    width: 68px;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#sortPrice #i-down {
+    width: 68px;
+    height: 12px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.list_t li:nth-of-type(3){
+    background-color: #ff4e00;
+}
+.list_t span {
+    float: right;
+}
+.list {
+    margin-left: 10px;
+}
+.list .cate_list {
+    padding: 5px 0;
+}
+.list li {
+    width: 230px;
+    height: 320px;
+    margin: 10px 5px;
+    float: left;
+    font-size: 14px;
+    padding: 10px;
+    display: inline;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.list ul li:hover {
+    width: 235px;
+    border: 1px solid #d9d9d9;
+    border-radius: 3px;
+}
+.list li .price {
+    width: 230px;
+    text-align:center;
+    font-size: 20px;
+    color: #ff4e00;
+}
+.list li a {
+    text-decoration: none;
+    color: #323232;
+}
+.list .name {
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.list ul li .name a:hover {
+    color: #ff4e00;
+}
+.list .carbg {
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 15px;
+}
+.list .carbg .ss {
+    width: 68px;
+    text-indent: 30px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: -1px;
+    background: url("../images/heart.png") no-repeat 6px center;
+}
+.list .carbg span{
+    width: 138px;
+    text-indent: 40px;
+    border: 1px solid #ccc;
+    float: left;
+    cursor:pointer;
+    color: #ff4e00;
+    background: url("../images/cars.png") no-repeat 12px center;
+}
+.list ul li:hover .carbg .j_car {
+    color: white;
+    background: #ff4e00 url("../images/cars_h.png") no-repeat 12px center;
+    border: 1px solid #ff4e00;
+}
+.list .carbg .ss:hover {
+    background: url("../images/care.png") no-repeat 6px center;
+}
+.pages {
+    overflow: hidden;
+    color: #888888;
+    padding: 20px 10px;
+    text-align: right;
+    font-size: 16px;
+    margin-top: 20px;
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+}
+.pages span{
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    overflow: hidden;
+
+}
+.pages .p_pre:hover {
+    background-color: #ccc;
+    border: 1px solid #ccc;
+}
+.pages a {
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #ccc;
+    color: #666666;
+    text-decoration: none;
+    padding: 5px 12px;
+    margin-left: 10px;
+}
+.pages a:hover {
+    background-color: #ff4e00;
+    border: 1px solid #ff4e00;
+    color: white;
+}
+.pages a:nth-of-type(2){
+    background-color: #ff4e00;
+    border: 1px solid #ff4e00;
+    color: white;
+}
+.car-t {
+    width: 120px;
+    height: 38px;
+    line-height: 38px;
+    background: #f6f6f6 url("../images/car.png") no-repeat 10px center;
+    /*margin-right: 60px;*/
+    margin-top: 50px;
+    border: 1px solid #d9d9d9;
+    overflow: hidden;
+    font-size: 14px;
+    cursor: pointer;
+    padding-left: 50px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 150px;
+    top: 30px;
+}
+.car_t span {
+    color: #ff3c3c;
+}
+.last{
+    width: 300px;
+    position: absolute;
+    top: 115px;
+    right: 150px;
+    background: #fff;
+    min-height: 300px;
+    z-index: 3;
+    border-top: 5px solid red;
+    box-shadow: 3px 3px  2px rgba(204, 204, 204, 0.51),-3px -3px  2px rgba(204, 204, 204, 0.51);
+    display: none;
+}
+.last:hover {
+    display: block;
+}
+.noshop{
+    display: none;
+}
+.noshop img{
+    width: 30%;
+    height: auto;
+    margin-top: 20%;
+    margin-left: 36%;
+}
+.noshop h3{
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    margin: 10px 0;
+}
+.shop li{
+    padding: 0 10px;
+}
+.shop li h4{
+    height: 40px;
+    line-height: 40px;
+    background: #fafafa;
+    border-top: 1px solid #e5e5e5;
+    font-size: 14px;
+}
+.shop li h4 span{
+    float: right;
+    font-size: 12px;
+    font-weight: normal;
+}
+.shopImg{
+    float: left;
+}
+.shopText{
+    float: left;
+    margin-left: 10px;
+}
+.shopImg img{
+    width: 90px;
+    height: 90px;
+}
+.shopText p{
+    line-height: 22px;
+    margin-bottom: 4px;
+}
+.shopText h5{
+    width: 156px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: left;
+    line-height: 24px;
+}
+.close{
+    float: right;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    color: #fff;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.shopText strong{
+    float: right;
+    color: #ff3c3c;
+}
+
+.close:hover{
+    color: #fff;
+    background: red;
+}
+.plush{
+    height: 34px;
+    line-height: 34px;
+    float: left;
+}
+.plush input{
+    width: 36px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #cfcfcf;
+    margin-top: -2px;
+    text-align: center;
+}
+.plush span{
+    display: inline-block;
+    width: 28px;
+    background: #f5f5f5;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #cfcfcf;
+
+}
+.plush span:first-of-type{
+    margin-right: -8px;
+}
+.plush span:last-of-type{
+    margin-left: -8px;
+}
+.shop li>p{
+    font-size: 14px;
+    background: #fff9f3;
+    padding-left: 10px;
+}
+.option{
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+}
+.option a{
+    color: #0000A8;
+
+}
+.buy{
+    height: 70px;
+    line-height: 70px;
+    background: #f8f8f8;
+    border: 1px solid #d0d6d6;
+}
+.buy p{
+    float: left;
+    margin-left: 10px;
+}
+.buy a{
+    float: right;
+    width: 160px;
+    background: #ff5c4d;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+.car-t:hover {
+    display: block;
+}
+/*购物车隐藏部分*/
+.gowudeHide{
+    display: none;
+}
+.gowucheHidden{
+    position: absolute;
+    z-index: 99;
+    width: 318px;
+    height: 500px;
+    border: 1px solid #ccc;
+    box-shadow:5px 5px 5px #ccc;
+    background-color: #fff;
+    right: 0;
+    overflow: scroll;
+}
+#gowucheJiaGe{
+    width: 318px;
+    height: 70px;
+    position: absolute;
+    top:500px;
+    right: 0;
+    z-index: 99;
+    line-height: 70px;
+    text-align: center;
+}
+#gowucheJiaGe>p{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: #f8f8f8;
+    float: left;
+}
+#gowucheJiaGe>a{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    background-color: #ff5c4d;
+    float: left;
+    color:#fff;
+    font-weight: 500;
+}
+.gowucheHidden div:first-of-type{
+    width: 300px;
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+}
+.gowucheHidden>ul li div:first-of-type{
+    width: 100%;
+    height: 40px;
+    background-color: #ececec;
+}
+.gowucheHidden>ul li div:first-of-type h2{
+    display: inline;
+    font-size: 16px;
+    font-weight: 900;
+    margin-left: 10px;
+}
+.gowucheHidden>ul li div:first-of-type span{
+    float:right;
+    font-size: 13px;
+    margin-right: 10px;
+}
+.gowucheHidden>ul li{
+    width: 300px;
+    height: 165px;
+    position: relative;
+    margin-top: 3px;
+}
+.gowucheHidden>ul li>img{
+    width: 90px;
+    height: 90px;
+    float: left;
+    position: absolute;
+    top:40px
+}
+.gowucheHidden>ul li>h3{
+    font-size: 10px;
+    font-weight: 600;
+    position: absolute;
+    top: 31px;
+    left: 100px;
+}
+.gowucheHidden>ul li>h4{
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    top:53px;
+    left: 100px;
+}
+.gowucheHidden>ul li>span:first-of-type{
+    overflow: hidden;
+    color: #fff;
+    font-size:15px;
+    display: inline-block;
+    line-height: 20px;
+    text-align:center;
+    font-family: '黑体';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top:50px;
+    background-color: #ccc;
+}
+.gowucheHidden>ul li>span:first-of-type:hover{
+    background-color: red;
+}
+.gowucheHidden>ul li>span:last-of-type{
+    color: red;
+    font-weight: 600;
+    font-size: 16px;
+    position: absolute;
+    top: 80px;
+    right: 10px;
+}
+.gowucheHidden>ul li>p{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    line-height: 25px;
+    padding-left: 10px;
+    width: 290px;
+    height: 25px;
+    background-color: #fff9f3;
+}
+.gowucheHidden>ul li>div:last-of-type{
+    position: absolute;
+    top:89px;
+    left: 100px;
+    width: 100px;
+    height: 40px;
+}
+.gowucheHidden>ul li>div:last-of-type>input{
+    width: 30px;
+    height: 33px;
+    line-height: 35px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    float: left;
+}
+.gowucheHidden>ul li>div:last-of-type span{
+    display: inline-block;
+    width: 30px;
+    height: 35px;
+    border: 1px solid #ccc;
+    line-height: 35px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    float: left;
+}
+

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <link rel="stylesheet" href="css/登录css.css">
+</head>
+<body>
+<header>
+    <div class="top-nav">
+        <a href="">
+            <img src="images/loginlogo.jpg" alt="">
+        </a>
+
+        <div class="top-right">
+            <div class="zhuce">
+                <p>您好，欢迎光临1号店！
+                    <a href="register.html">请注册</a>
+                </p>
+            </div>
+            <div class="outhelpe">
+                <p>
+                    <img src="images/runbun.png" alt="">
+                    帮助中心
+                    <img src="images/turnb.png" alt="" class="two">
+                </p>
+            </div>
+
+        </div>
+    </div>
+</header>
+<div class="denglu">
+    <div class="content">
+        <div class="tu-left pull-left">
+            <img class="fl" src="images/loadimg.jpg" alt="">
+        </div>
+
+        <div class="denglu-right pull-right">
+            <p class="pull-left">
+                1号店用户登录
+            </p>
+            <p class="pull-right zuce"><a href="register.html"><span> 注册账号</span></a></p>
+            <div class="uerNmae">
+                <img class="imgone" src="images/userHead.png" alt="">
+                <input type="text" placeholder="邮箱/手机/用户名" required="" autofocus=""
+                id="user"  pattern="[a-zA-Z0-9]{1,10}@[a-zA-Z0-9]{1,5}\.[a-zA-Z0-9]{1,5}|
+                       ^1[3578]\d{9}$|^[\u4e00-\u9fa5]{2,4}$">
+            </div>
+            <div class="mima">
+                <img class="imgtwo" src="images/lock.png" alt="">
+                <input id="password" placeholder="密码" required="" pattern="^\w{6,10}$" type="password">
+            </div>
+            <div class="zidenglu">
+                <a href="">
+                    <input type="checkbox" class="annjiu">
+                    <span class="dl">自动登录</span>
+                </a>
+                <p>忘记密码？</p>
+            </div>
+
+            <div class="btn" id="delu">
+                <button>登录</button>
+            </div>
+
+            <div class="hezuo">
+                <p>更多合作网站账号登录</p>
+                <div class="shejie">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="images/l_1.png" alt="">
+                                <img class="hideimg" src="images/l_1_h.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/l_2.png" alt="">
+                                <img class="hideimg" src="images/l_2_h.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/l_3.png" alt="">
+                                <img class="hideimg" src="images/l_3_h.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="images/l_4.png" alt="">
+                                <img class="hideimg" src="images/l_4_h.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="wangzhan">
+                        <p class="pull-right">更多合作网站</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="jiaoben">
+            <ul>
+                <li>沪ICP备13044278号 &nbsp;&nbsp;| </li>
+                <li> &nbsp;&nbsp;合字B1.B2-20130004 </li>
+                <li> &nbsp;&nbsp;| &nbsp; 营业执照</li>
+            </ul>
+            <p>Copyright © 1号店网上超市 2007-2016，All Rights Reserved</p>
+        </div>
+    </div>
+</div>
+
+
+</body>
+<script src="js/jquery1.2.2.js"></script>
+<script>
+    $(function () {
+
+
+
+
+
+
+
+    })
+
+
+
+</script>
+
+<script>
+
+   //  $(function () {
+   //
+   //
+   //
+   //
+   //
+   //  // var ipt=document.getElementById('user');
+   //  // var btn=document.getElementById('delu');
+   //  // var pswd=document.getElementById('password');
+   //  // var ajax=new XMLHttpRequest();
+   //  // ajax.open('get','a.txt');
+   //  // ajax.send();
+   //  // ajax.onreadystatechange=function(){
+   //  //     if(ajax.readyState===4&&ajax.status===200){
+   //  //         var text=JSON.parse(ajax.responseText);
+   //  //         console.log(text);
+   //  //         console.log(text.psd);
+   //  //         btn.onclick=function(){
+   //  //             // alert('登录成功')
+   //  //             if(ipt.value==text.name&&pswd.value==text.psd){
+   //  //                 alert('登录成功')
+   //  //             }else{
+   //  //                 alert('密码或用户名错误')
+   //  //             }
+   //  //         }
+   //  //     }
+   //  //
+   //  // }
+   //
+   // //  var $ipt=$('.uerNmae input').val();
+   // //  var $psd=$('.password').val();
+   // //  var $btn=$('.btn');
+   // //  // console.log($ipt);
+   // //  // console.log($psd)
+   // //  function ajax(obj){
+   // //      obj.type=obj.type||'get';
+   // //      obj.async=obj.async||true;
+   // //      var ajax=new XMLHttpRequest();
+   // //      ajax.open(obj.type,obj.url,obj.async);
+   // //      ajax.send();
+   // //      ajax.onreadystatechange=function(){
+   // //          if(ajax.readyState===4&&ajax.status===200){
+   // //              var text=ajax.responseText;
+   // //              // alert('登录成功')
+   // //              // obj.success(text);
+   // //              console.log($ipt);
+   // //              console.log(text.name)
+   // //             $btn.click(function(){
+   // //                 if($ipt==text.name&&$psd==text.psd){
+   // //                     alert('登录成功')
+   // //                 }else{
+   // //                     alert('密码或用户名错误')
+   // //                 }
+   // //             })
+   // //
+   // //          }
+   // //      }
+   // //  }
+   // //
+   // // ajax({
+   // //      url:'a.txt',
+   // //      type:'get',
+   // //      data:{
+   // //          name:"haha123",
+   // //          psd:"1234567"
+   // //      },
+   // //      success:function(data){
+   // //          alert(data)
+   // //      },
+   // //      error:function(msg){
+   // //
+   // //      }
+   // //  })
+   //
+   //  // $('.shejie ul li').each(function (i,e) {
+   //  //     $(e).css({
+   //  //         background:'url("images/l_'+i+'.png")',
+   //  //
+   //  //     })
+   //  // })
+   //  // $('.shejie ul li img') .css({
+   //  //     width:35,
+   //  //     height:35
+   //  // })
+   //
+   //  })
+
+
+
+</script>
+</html>

@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    width: 100%;
+}
+header {
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+    box-shadow: 0px 3px 3px #ccc;
+}
+.head {
+    width: 1200px;
+    margin: 0 auto;
+}
+.head>img {
+    margin: 10px 0;
+    float: left;
+}
+.headFont {
+    float: right;
+    margin-top: 20px;
+}
+.headFont a {
+    text-decoration: none;
+}
+.headFont span,.headFont a {
+    line-height: 18px;
+    font-family: "SimSun";
+    font-size: 12px;
+    color: #999;
+    vertical-align: middle;
+}
+.headFont span a {
+    color: #06c;
+}
+.headFont span a:hover {
+    color: #f60;
+}
+.headFont>a {
+    margin-left: 25px;
+    color: #E60012;
+}
+.headFont>a {
+    margin-left: 25px;
+    color: #333;
+}
+.help {
+    display: inline-block;
+}
+.runbun,.turnb {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin: 0 4px;
+}
+.runbun {
+    background: url(../images/runbun.png) no-repeat;
+    background-size: 100% 100%;
+}
+.turnb {
+    background: url(../images/turnb.png) no-repeat;
+    background-size: 100% 100%;
+}
+.helpLink {
+    color: #333;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: inline-block;
+}
+.helpLink:hover {
+    color: #E60012;
+}
+.outHelp {
+    position: absolute;
+    top: 50px;
+    right: 74px;
+    width: 106px;
+    border: 1px solid #CCC;
+    cursor: pointer;
+    display: none;
+}
+.helpYou {
+    background: #fff;
+}
+.helpYou li a {
+    height: 24px;
+    padding-left: 20px;
+    background: #FFF;
+    line-height: 24px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+}
+.helpYou li {
+    border-top: 1px solid #d3d3d3;
+}
+.helpYou li:nth-of-type(1){
+    margin-top: -1px;
+}
+.helpYou li a:hover {
+    color: #E60012;
+}
+section {
+    margin: 20px;
+}
+section .innerTab {
+    width: 330px;
+    margin: 0 auto;
+}
+.innerTab h2 {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.innerTab input {
+    width: 326px;
+    height: 50px;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
+.innerTab .cf {
+    position: relative;
+}
+.phone,.b,.psd,.twice {
+    display: block;
+    text-indent: 20px;
+}
+.innerTab .cf .b {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.innerTab .yanzheng {
+    width: 192px;
+    height: 50px;
+    float: left;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.innerTab a {
+    text-decoration: none;
+}
+.innerTab .tableText {
+    width: 120px;
+    height: 52px;
+    float: left;
+    background-color: #57565f;
+    border: 1px solid #57565f;
+    margin-left: 12px;
+    border-radius: 2px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.innerTab>p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+.innerTab>p>a {
+    color: blue;
+}
+.tableBtn {
+    width: 330px;
+    height: 35px;
+    background-color: #ff3c3c;
+    border: 2px solid #ff3c3c;
+    border-radius: 2px;
+    color: white;
+    font-size: 16px;
+    padding: 2px;
+    cursor: pointer;
+}
+#footNav {
+    width: 980px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 12px;
+}
+#footNav p {
+    margin-top: 10px;
+    color: #333;
+}
+#footNav p a {
+    padding: 0 6px;
+    color: #333;
+    text-decoration: none;
+}
+#footNav p a:hover {
+    color: #c00;
+}
